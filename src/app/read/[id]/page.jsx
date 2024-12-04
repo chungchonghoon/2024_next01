@@ -23,7 +23,7 @@ async function Page({params}) {
     }
     return (
         <>
-            <h2>하이</h2>
+            <h3>하이</h3>
             {/* <h3>{str}</h3> */}
             <hr />
             <h3>{msg === '1' ? 'html 선택' : msg === '2' ? 'css 선택' : 'js 선택'}</h3> 

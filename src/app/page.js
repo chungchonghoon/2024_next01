@@ -7,6 +7,7 @@ import img01 from "/public/images/coffee-blue.jpg"
   해당 경로의 page.js 파일이 반드시 필요하다.
 */
 
+import ItemList from './itemList/page';
 
 // 아래 컴포넌트는 자식컴포넌트이다.
 export default function Home() {
@@ -25,6 +26,9 @@ export default function Home() {
       <p><Image src={img01} /></p>
       <p><Image src={img01} width={50} height={50}/></p> 
       */}
+
+      <ItemList></ItemList>
+
     </>
   );
 }
